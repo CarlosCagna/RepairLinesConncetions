@@ -1,0 +1,39 @@
+# This file contains metadata for your plugin. Since 
+# version 2.0 of QGIS this is the proper way to supply 
+# information about a plugin. The old method of 
+# embedding metadata in __init__.py will 
+# is no longer supported since version 2.0.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=Repair Lines Connections
+qgisMinimumVersion=2.0
+description=repairs the connection of lines, each error is repaired individually through the user's confirmation
+version=0.1
+author=carlos eduardo cagna / IBGE
+email=carlos.cagna@ibge.gov.br
+
+about=The plugin opens a new window with a correction hint, which replaces the originl feature when it is approved by the user.
+
+tracker=http:http://github.com/CarlosCagna/DeactivateActiveLabels/issues
+repository=http:http://github.com/CarlosCagna/DeactivateActiveLabels
+# End of mandatory metadata
+
+# Recommended items:
+
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=lines, connection
+
+homepage=http://github.com/CarlosCagna/DeactivateActiveLabels
+category=Plugins
+icon=icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
