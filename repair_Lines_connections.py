@@ -269,7 +269,7 @@ class RepairLinesConncetions:
  
  
         self.camada_corrigida = QgsVectorLayer(remove_field_1['OUTPUT'], "clean", "ogr") 
-        QgsMapLayerRegistry.instance().addMapLayer(self.camada_corrigida)   
+        QgsMapLayerRegistry.instance().addMapLayer(self.camada_corrigida, False)   
 
     def configura_camada_corrigida(self):        
         symbolList = self.camada_corrigida.rendererV2().symbols()
